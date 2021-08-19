@@ -11,12 +11,18 @@
 body {
     font-family: 'Montserrat',
         sans-serif;
-       /** text-align: center;**/
+        /* text-align: center; */
         margin: 0px;
 }
 
 hr {
     margin: 2rem 0rem;
+}
+
+/** Spaces **/
+
+.margin-md {
+    padding: 2rem;
 }
 
 /** container **/
@@ -93,6 +99,7 @@ hr {
 
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img {
@@ -137,4 +144,13 @@ hr {
 
 .footer .link {
     color: white;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
 }
